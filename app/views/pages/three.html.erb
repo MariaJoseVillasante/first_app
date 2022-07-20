@@ -1,0 +1,10 @@
+<h2>Título</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quam sint cum nam delectus, voluptatibus atque. Doloremque, dicta nulla veritatis iste repudiandae culpa accusantium, consequuntur ratione corporis qui, voluptates obcaecati?</p>
+
+<%(1..@n).each do |i|%>
+    <%if i.even?%>
+        <span><%="."%></span>
+    <%else%> 
+        <span><%="*"%></span>
+    <%end%>
+<%end%>
