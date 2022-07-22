@@ -1,6 +1,16 @@
 <h1>María José Villasante</h1>
 <%# pe <%=  %> 
 <%# er <%  %> 
+<%# Etapas: new,Controller, Modelo, migration %>
+<%# rails new nombre %>
+<%# rails s %>
+<%# rails g controller subject index edit %>
+<%# rails g controller pagina index edit show %>
+<%# rails g controller contact index show %>
+<%# rails g model Subject name position:integer visible:boolean %>
+<%# rails g model Pagina name permalink position:integer visible:boolean content:text subject:references %>
+<%# rails db:migrate %>
+<%# Modelo.create(atributo1: 'dato', atributo2: 'dato2'). %>
 
 <% @letras.each do |n| %>
 <p> <%= n  %> </p>
